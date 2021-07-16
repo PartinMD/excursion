@@ -1,5 +1,7 @@
 html {
     background-color: black;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 header h1 {
@@ -7,5 +9,68 @@ header h1 {
     font-size: 50px;
     font-weight: normal;
     color: white;
-    text-align: center;
+}
+
+.download {
+    font-family: Verdana, Geneva, Sans-serif;
+    font-size: 16px;
+    color: aquamarine;
+}
+
+.download:hover {
+    opacity: 0.8;
+}
+
+#videoContainer {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.travelGuide {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 42px;
+    font-weight: 300;
+    color: white;
+}
+
+.caption {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 21px;
+    color: grey;
+}
+
+#imgContainer {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    overflow: hidden;
+}
+
+#icon {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding-top: 20px;
+    margin-bottom: -30px;
+}
+
+.comingSoon {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 42px;
+    font-weight: 300;
+    color: white;
+}
+
+.copyright {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: right;
+    color: grey;
+}
+
+@media only screen and (max-width: 414px) {
+    #imgContainer {
+        width: auto;
+        overflow: hidden;
+    }
 }
